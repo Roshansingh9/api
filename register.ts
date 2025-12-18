@@ -10,8 +10,8 @@ export default async function handler(req: any, res: any) {
   const data = req.body;
 
   await resend.emails.send({
-    from: "Company <info@company.com>",
-    to: ["inquire@company.com"],
+    from: "roshan.kr.singh9857@gmail.com",
+    to: ["roshan.kr.singh8545@gmail.com"],
     subject: "New Registration",
     text: JSON.stringify(data, null, 2),
   });
